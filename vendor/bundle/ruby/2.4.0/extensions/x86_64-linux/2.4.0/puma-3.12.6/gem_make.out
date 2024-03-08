@@ -1,0 +1,129 @@
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/ext/puma_http11
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/bin/ruby -r ./siteconf20230711-242864-fldjoj.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from http11_parser.h:11,
+                 from ext/puma_http11/http11_parser.rl:6:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from http11_parser.h:11,
+                 from ext/puma_http11/http11_parser.rl:6:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling io_buffer.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from io_buffer.c:2:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from io_buffer.c:2:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling mini_ssl.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from mini_ssl.c:3:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from mini_ssl.c:3:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+mini_ssl.c: In function ‘get_dh1024’:
+mini_ssl.c:100:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  100 |   BIGNUM *p, *g;
+      |   ^~~~~~
+mini_ssl.c: In function ‘engine_init_server’:
+mini_ssl.c:153:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  153 |   ID sym_cert = rb_intern("cert");
+      |   ^~
+mini_ssl.c:158:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  158 |   ID sym_ca = rb_intern("ca");
+      |   ^~
+mini_ssl.c:189:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  189 |   DH *dh = get_dh1024();
+      |   ^~
+mini_ssl.c:193:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  193 |   EC_KEY *ecdh = EC_KEY_new_by_curve_name(NID_secp521r1);
+      |   ^~~~~~
+mini_ssl.c: In function ‘engine_init_client’:
+mini_ssl.c:220:3: warning: ‘DTLSv1_method’ is deprecated [-Wdeprecated-declarations]
+  220 |   conn->ctx = SSL_CTX_new(DTLSv1_method());
+      |   ^~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/openssl/include/openssl/e_os2.h:13,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/openssl/include/openssl/bio.h:13,
+                 from mini_ssl.c:14:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/openssl/include/openssl/ssl.h:1905:45: note: declared here
+ 1905 | DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *DTLSv1_method(void)) /* DTLSv1.0 */
+      |                                             ^~~~~~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/openssl/include/openssl/opensslconf.h:115:37: note: in definition of macro ‘DECLARE_DEPRECATED’
+  115 | #   define DECLARE_DEPRECATED(f)    f __attribute__ ((deprecated));
+      |                                     ^
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/openssl/include/openssl/ssl.h:1905:1: note: in expansion of macro ‘DEPRECATEDIN_1_1_0’
+ 1905 | DEPRECATEDIN_1_1_0(__owur const SSL_METHOD *DTLSv1_method(void)) /* DTLSv1.0 */
+      | ^~~~~~~~~~~~~~~~~~
+mini_ssl.c: In function ‘raise_error’:
+mini_ssl.c:250:6: warning: function might be candidate for attribute ‘noreturn’ [-Wsuggest-attribute=noreturn]
+  250 | void raise_error(SSL* ssl, int result) {
+      |      ^~~~~~~~~~~
+mini_ssl.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling puma_http11.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from puma_http11.c:9:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from puma_http11.c:9:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+linking shared-object puma/puma_http11.so
+
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20230711-242864-s73puw/puma
