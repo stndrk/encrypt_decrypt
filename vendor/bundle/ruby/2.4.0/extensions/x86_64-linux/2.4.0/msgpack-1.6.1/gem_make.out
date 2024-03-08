@@ -1,0 +1,286 @@
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/msgpack-1.6.1/ext/msgpack
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/bin/ruby -r ./siteconf20230711-242864-uq6wga.rb extconf.rb
+checking for ruby/st.h... yes
+checking for st.h... yes
+checking for rb_enc_interned_str() in ruby.h... no
+checking for rb_hash_new_capa() in ruby.h... no
+creating Makefile
+
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/msgpack-1.6.1/ext/msgpack
+make "DESTDIR=" clean
+
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/msgpack-1.6.1/ext/msgpack
+make "DESTDIR="
+compiling buffer.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling buffer_class.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling extension_value_class.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from extension_value_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from extension_value_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling factory_class.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from factory_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from factory_class.h:21,
+                 from factory_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling packer.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from packer.h:21,
+                 from packer.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from packer.h:21,
+                 from packer.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling packer_class.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling packer_ext_registry.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_ext_registry.h:21,
+                 from packer_ext_registry.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from packer_ext_registry.h:21,
+                 from packer_ext_registry.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling rbinit.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer_class.h:21,
+                 from rbinit.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from buffer_class.h:21,
+                 from rbinit.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling rmem.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from rmem.h:21,
+                 from rmem.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from rmem.h:21,
+                 from rmem.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling unpacker.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling unpacker_class.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from buffer.h:21,
+                 from unpacker.h:21,
+                 from unpacker_class.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+compiling unpacker_ext_registry.c
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from unpacker_ext_registry.h:21,
+                 from unpacker_ext_registry.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/ruby.h:2008,
+                 from /home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby.h:33,
+                 from compat.h:22,
+                 from unpacker_ext_registry.h:21,
+                 from unpacker_ext_registry.c:19:
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/satendrakumar/.asdf/installs/ruby/2.4.2/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+linking shared-object msgpack/msgpack.so
+
+current directory: /home/satendrakumar/cj22/vendor/bundle/ruby/2.4.0/gems/msgpack-1.6.1/ext/msgpack
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20230711-242864-1s5jbxb/msgpack

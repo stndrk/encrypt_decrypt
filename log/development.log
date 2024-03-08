@@ -1,0 +1,426 @@
+Started GET "/" for ::1 at 2023-07-11 23:04:24 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 18ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/encrypt" for ::1 at 2023-07-11 23:22:02 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/encrypt"):
+  
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.4.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/encrypt" for ::1 at 2023-07-11 23:22:40 +0530
+  
+ActionController::RoutingError (uninitialized constant ApiController):
+  
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/inflector/methods.rb:283:in `const_get'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/inflector/methods.rb:283:in `block in constantize'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/inflector/methods.rb:281:in `each'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/inflector/methods.rb:281:in `inject'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/inflector/methods.rb:281:in `constantize'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/http/request.rb:81:in `controller_class'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/routing/route_set.rb:46:in `controller'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/journey/router.rb:35:in `each'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/tempfile_reaper.rb:15:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/etag.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/conditional_get.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/session/abstract/id.rb:266:in `context'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/session/abstract/id.rb:260:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+vendor/bundle/ruby/2.4.0/gems/activerecord-5.2.8.1/lib/active_record/migration.rb:559:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.4.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/encrypt" for ::1 at 2023-07-11 23:29:20 +0530
+Processing by CypeController#encrypt as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/decrypt" for ::1 at 2023-07-11 23:29:43 +0530
+Processing by CypeController#decrypt as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `split' for nil:NilClass):
+  
+app/controllers/cype_controller.rb:67:in `decrypt'
+app/controllers/cype_controller.rb:41:in `decrypt_data'
+app/controllers/cype_controller.rb:27:in `decrypt'
+Started GET "/api/decrypt" for ::1 at 2023-07-11 23:37:18 +0530
+Processing by CypeController#decrypt as HTML
+Completed 422 Unprocessable Entity in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-11 23:38:14 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"LVm/s0UopF+v4q82QEMLuOG3qdqqDIajpPuA5urW9XV07fDCVI7+JNnY2VI92nOkal5tNHV9eOde8XzPiLLNNBwJ3X1kWHSopc9D9xx62hQtBLZCfyCahgQGnGchdlf+:hL8L1YDL7OAlgf8UEO4fNA==", "cype"=>{"encrypted_data"=>"LVm/s0UopF+v4q82QEMLuOG3qdqqDIajpPuA5urW9XV07fDCVI7+JNnY2VI92nOkal5tNHV9eOde8XzPiLLNNBwJ3X1kWHSopc9D9xx62hQtBLZCfyCahgQGnGchdlf+:hL8L1YDL7OAlgf8UEO4fNA=="}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-12 10:52:16 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"Iwu8gE6jkyOzC6u93+s4YQOvkz2ubDDzIgYbsFWeuFa+yzly3sls/ApUO+HNdZgIKMefjZGWzxrnZgk796G1I/H/wWRXmmOqnfjOxSFKvxM2xa5F0urEVo+iDzwLMD+yNvmLZC+80AAOLYsee9Ll0qOI4v7ZTdHHCWey0b1t61iDoXeKjGov9isAN2TbH69D1VxkTCUUoeLRk0PoVXslm0dwL/ipgRTxTIRr0dnvsA5SgIyDkhWozIrBxjd9wNI5:4FSPfRXHWg2hkG/6u/tBmw==", "cype"=>{"encrypted_data"=>"Iwu8gE6jkyOzC6u93+s4YQOvkz2ubDDzIgYbsFWeuFa+yzly3sls/ApUO+HNdZgIKMefjZGWzxrnZgk796G1I/H/wWRXmmOqnfjOxSFKvxM2xa5F0urEVo+iDzwLMD+yNvmLZC+80AAOLYsee9Ll0qOI4v7ZTdHHCWey0b1t61iDoXeKjGov9isAN2TbH69D1VxkTCUUoeLRk0PoVXslm0dwL/ipgRTxTIRr0dnvsA5SgIyDkhWozIrBxjd9wNI5:4FSPfRXHWg2hkG/6u/tBmw=="}}
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/encryption/encrypt" for ::1 at 2023-07-13 18:11:09 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/encryption/encrypt"):
+  
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.4.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/api/encrypt" for ::1 at 2023-07-13 18:12:51 +0530
+Processing by CypeController#encrypt as */*
+  Parameters: {"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"satyendra kumar", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"satyendra kumar", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-13 18:16:02 +0530
+Processing by CypeController#encrypt as */*
+  Parameters: {"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"abhishek", "dob"=>"18/06/1999", "pan"=>"GARKK0879J", "cype"=>{"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"abhishek", "dob"=>"18/06/1999", "pan"=>"GARKK0879J"}}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-13 18:28:11 +0530
+Processing by CypeController#encrypt as */*
+  Parameters: {"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"abhishek", "dob"=>"18/06/1999", "pan"=>"GARKK0879J", "cype"=>{"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"abhishek", "dob"=>"18/06/1999", "pan"=>"GARKK0879J"}}
+Completed 200 OK in 22ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-13 18:33:39 +0530
+Processing by CypeController#encrypt as */*
+  Parameters: {"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"abhishek", "dob"=>"18/06/1999", "pan"=>"GARKK0879J", "cype"=>{"encrypt"=>"ENCRYPT", "doctype"=>"aadhaar", "name"=>"abhishek", "dob"=>"18/06/1999", "pan"=>"GARKK0879J"}}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-13 18:54:47 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"Iwu8gE6jkyOzC6u93+s4YQOvkz2ubDDzIgYbsFWeuFa+yzly3sls/ApUO+HNdZgIKMefjZGWzxrnZgk796G1I/H/wWRXmmOqnfjOxSFKvxM2xa5F0urEVo+iDzwLMD+yNvmLZC+80AAOLYsee9Ll0qOI4v7ZTdHHCWey0b1t61iDoXeKjGov9isAN2TbH69D1VxkTCUUoeLRk0PoVXslm0dwL/ipgRTxTIRr0dnvsA5SgIyDkhWozIrBxjd9wNI5:4FSPfRXHWg2hkG/6u/tBmw==", "cype"=>{"encrypted_data"=>"Iwu8gE6jkyOzC6u93+s4YQOvkz2ubDDzIgYbsFWeuFa+yzly3sls/ApUO+HNdZgIKMefjZGWzxrnZgk796G1I/H/wWRXmmOqnfjOxSFKvxM2xa5F0urEVo+iDzwLMD+yNvmLZC+80AAOLYsee9Ll0qOI4v7ZTdHHCWey0b1t61iDoXeKjGov9isAN2TbH69D1VxkTCUUoeLRk0PoVXslm0dwL/ipgRTxTIRr0dnvsA5SgIyDkhWozIrBxjd9wNI5:4FSPfRXHWg2hkG/6u/tBmw=="}}
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 10:41:29 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879"}}
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 10:46:49 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-14 10:56:44 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"BE/1wzDZi0JnJRN17Ary9El7o6L9HeR+POm0W8+C2uiuQ/SjWsEP4ypbU47kUUmBt5Dl6pXJV3JdCdatVR1iAG0U57/i1Q4yCk3FR/CaxbQ5O6BIVUQLDm0cJldsfag1aJQcRF/q/RxcRfRC1cmrwh6VjCfyaEVtGkYHcnK/iH/cXtJ09sCbheNyjRDpol6jRvqY+5o4MWmEzvG/0+/k9ho6/0rjQASH/TaZLHzh8I9qHurJjXbX1KZlnXxigo8S:kkyEY7Hwd/xgvWX2E0shlg==", "cype"=>{"encrypted_data"=>"BE/1wzDZi0JnJRN17Ary9El7o6L9HeR+POm0W8+C2uiuQ/SjWsEP4ypbU47kUUmBt5Dl6pXJV3JdCdatVR1iAG0U57/i1Q4yCk3FR/CaxbQ5O6BIVUQLDm0cJldsfag1aJQcRF/q/RxcRfRC1cmrwh6VjCfyaEVtGkYHcnK/iH/cXtJ09sCbheNyjRDpol6jRvqY+5o4MWmEzvG/0+/k9ho6/0rjQASH/TaZLHzh8I9qHurJjXbX1KZlnXxigo8S:kkyEY7Hwd/xgvWX2E0shlg=="}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 13:27:34 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Integer):
+  
+app/controllers/cype_controller.rb:186:in `*'
+app/controllers/cype_controller.rb:186:in `pad'
+app/controllers/cype_controller.rb:153:in `encrypt'
+app/controllers/cype_controller.rb:137:in `encrypt_data'
+app/controllers/cype_controller.rb:119:in `encrypt'
+Started POST "/api/encrypt" for ::1 at 2023-07-14 13:44:05 +0530
+  
+SyntaxError (/home/satendrakumar/cj22/app/controllers/cype_controller.rb:156: syntax error, unexpected keyword_end, expecting end-of-input
+  end
+     ^):
+  
+app/controllers/cype_controller.rb:156: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/api/encrypt" for ::1 at 2023-07-14 13:46:15 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 13:49:49 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 51069ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 13:50:47 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 2217338ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 14:27:45 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 3498ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 14:29:22 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Encoding::CompatibilityError (incompatible character encodings: US-ASCII and UTF-16):
+  
+app/controllers/cype_controller.rb:189:in `encrypt'
+app/controllers/cype_controller.rb:161:in `encrypt_data'
+app/controllers/cype_controller.rb:119:in `encrypt'
+Started POST "/api/encrypt" for ::1 at 2023-07-14 14:30:42 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 14:31:27 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 14:47:04 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 224814ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 14:50:53 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-14 14:51:56 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"XQefnwSXbpE2GiuUXwi788qMkmxPV+VczhGoZC42P9vbaWnzHL+WKvelvthna7X68VlYRD4WGxyFt4wXhKMzZQ3lT4EZ4MUQdAaUSVH39/m6dEu1vSMrjH/plE4x6dmg2nXIfk5UuiMiTUpV9cmBaUeYRF6CF7g0X3ue8KWZaTL1n1/fZU+MTjbniTlza4AHVZ+vzT5uMCv9b5uWiiQ29NbkB+CLyzE6v/5R+pGncQJzQuJoZZIEWTvNDbb98pJU:isWNAYgTWBO140WmkF43Cw==", "cype"=>{"encrypted_data"=>"XQefnwSXbpE2GiuUXwi788qMkmxPV+VczhGoZC42P9vbaWnzHL+WKvelvthna7X68VlYRD4WGxyFt4wXhKMzZQ3lT4EZ4MUQdAaUSVH39/m6dEu1vSMrjH/plE4x6dmg2nXIfk5UuiMiTUpV9cmBaUeYRF6CF7g0X3ue8KWZaTL1n1/fZU+MTjbniTlza4AHVZ+vzT5uMCv9b5uWiiQ29NbkB+CLyzE6v/5R+pGncQJzQuJoZZIEWTvNDbb98pJU:isWNAYgTWBO140WmkF43Cw=="}}
+Completed 500 Internal Server Error in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/cype_controller.rb:147:in `rescue in decrypt'
+app/controllers/cype_controller.rb:141:in `decrypt'
+Started POST "/api/decrypt" for ::1 at 2023-07-14 15:00:00 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"XQefnwSXbpE2GiuUXwi788qMkmxPV+VczhGoZC42P9vbaWnzHL+WKvelvthna7X68VlYRD4WGxyFt4wXhKMzZQ3lT4EZ4MUQdAaUSVH39/m6dEu1vSMrjH/plE4x6dmg2nXIfk5UuiMiTUpV9cmBaUeYRF6CF7g0X3ue8KWZaTL1n1/fZU+MTjbniTlza4AHVZ+vzT5uMCv9b5uWiiQ29NbkB+CLyzE6v/5R+pGncQJzQuJoZZIEWTvNDbb98pJU:isWNAYgTWBO140WmkF43Cw==", "cype"=>{"encrypted_data"=>"XQefnwSXbpE2GiuUXwi788qMkmxPV+VczhGoZC42P9vbaWnzHL+WKvelvthna7X68VlYRD4WGxyFt4wXhKMzZQ3lT4EZ4MUQdAaUSVH39/m6dEu1vSMrjH/plE4x6dmg2nXIfk5UuiMiTUpV9cmBaUeYRF6CF7g0X3ue8KWZaTL1n1/fZU+MTjbniTlza4AHVZ+vzT5uMCv9b5uWiiQ29NbkB+CLyzE6v/5R+pGncQJzQuJoZZIEWTvNDbb98pJU:isWNAYgTWBO140WmkF43Cw=="}}
+Completed 500 Internal Server Error in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/cype_controller.rb:147:in `rescue in decrypt'
+app/controllers/cype_controller.rb:141:in `decrypt'
+Started POST "/api/decrypt" for ::1 at 2023-07-14 15:01:15 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"XQefnwSXbpE2GiuUXwi788qMkmxPV+VczhGoZC42P9vbaWnzHL+WKvelvthna7X68VlYRD4WGxyFt4wXhKMzZQ3lT4EZ4MUQdAaUSVH39/m6dEu1vSMrjH/plE4x6dmg2nXIfk5UuiMiTUpV9cmBaUeYRF6CF7g0X3ue8KWZaTL1n1/fZU+MTjbniTlza4AHVZ+vzT5uMCv9b5uWiiQ29NbkB+CLyzE6v/5R+pGncQJzQuJoZZIEWTvNDbb98pJU:isWNAYgTWBO140WmkF43Cw==", "cype"=>{"encrypted_data"=>"XQefnwSXbpE2GiuUXwi788qMkmxPV+VczhGoZC42P9vbaWnzHL+WKvelvthna7X68VlYRD4WGxyFt4wXhKMzZQ3lT4EZ4MUQdAaUSVH39/m6dEu1vSMrjH/plE4x6dmg2nXIfk5UuiMiTUpV9cmBaUeYRF6CF7g0X3ue8KWZaTL1n1/fZU+MTjbniTlza4AHVZ+vzT5uMCv9b5uWiiQ29NbkB+CLyzE6v/5R+pGncQJzQuJoZZIEWTvNDbb98pJU:isWNAYgTWBO140WmkF43Cw=="}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-14 16:53:01 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-14 16:57:44 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"qQPabKUbtPb+mXXA0h/2lc4s7ArTUqKkbcIJ6iVNg94FutxpR41qK9lrHcTrqvWjjfc6M97rFOV6OxBGI4mAYsYHBWq+dSWCgVxLnAp8WTZgHljpanoznmvHF4o/iR2ncs/WKuO8/TUC6rxa51ePwR9vRV0XWO3v+tcjS1qvOA3NcRJqLvtry1FCI782v2m4qI9Fj2brSaJcyegYXDqL/LCo+x0+PKV5wOMBGe5YNyj/Se8zYWFPWsXGpU02H2ze:fwkZIcAIlY1b48wnoFDnmQ==", "cype"=>{"encrypted_data"=>"qQPabKUbtPb+mXXA0h/2lc4s7ArTUqKkbcIJ6iVNg94FutxpR41qK9lrHcTrqvWjjfc6M97rFOV6OxBGI4mAYsYHBWq+dSWCgVxLnAp8WTZgHljpanoznmvHF4o/iR2ncs/WKuO8/TUC6rxa51ePwR9vRV0XWO3v+tcjS1qvOA3NcRJqLvtry1FCI782v2m4qI9Fj2brSaJcyegYXDqL/LCo+x0+PKV5wOMBGe5YNyj/Se8zYWFPWsXGpU02H2ze:fwkZIcAIlY1b48wnoFDnmQ=="}}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/decrypt" for ::1 at 2023-07-21 12:38:07 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"b3AkIiz0QOrDduqXfSCN1fBYJwYvum+EW3CW1WrJ2z+J54gZ6Y7IGV0uLP0uph+CqjMi1jqdF1xgHXhp5R9/UI88wxmXsgMjCu8tWh4OR1Xgoh7Qn13YNoOda9tP254rTOiigfwcR+2YAxOgAm5Oo57TegrcDDIgI/TqAB8MZkMe7ZkBYcR1WSoYvjptpJ37kzunbfMKlYFaxJxo+JQXkorT5mZoUfzhxQ9sftM76qIQaQGdUrv20nt+vB/JPw0B:DgSZ2bmoiRGwq9rjSwX/oA==", "cype"=>{"encrypted_data"=>"b3AkIiz0QOrDduqXfSCN1fBYJwYvum+EW3CW1WrJ2z+J54gZ6Y7IGV0uLP0uph+CqjMi1jqdF1xgHXhp5R9/UI88wxmXsgMjCu8tWh4OR1Xgoh7Qn13YNoOda9tP254rTOiigfwcR+2YAxOgAm5Oo57TegrcDDIgI/TqAB8MZkMe7ZkBYcR1WSoYvjptpJ37kzunbfMKlYFaxJxo+JQXkorT5mZoUfzhxQ9sftM76qIQaQGdUrv20nt+vB/JPw0B:DgSZ2bmoiRGwq9rjSwX/oA=="}}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-31 22:17:03 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/encrypt" for ::1 at 2023-07-31 22:19:32 +0530
+Processing by CypeController#encrypt as JSON
+  Parameters: {"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J", "cype"=>{"encrypt"=>"encrypt", "doctype"=>"aadhaar", "name"=>"satendra", "dob"=>"10/06/1998", "pan"=>"GRWPK0879J"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/request_forgery_protection.rb:215:in `handle_unverified_request'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/request_forgery_protection.rb:247:in `handle_unverified_request'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/request_forgery_protection.rb:242:in `verify_authenticity_token'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:199:in `block in halting'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:513:in `block in invoke_before'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:513:in `each'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:513:in `invoke_before'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:131:in `run_callbacks'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/abstract_controller/callbacks.rb:41:in `process_action'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/rescue.rb:22:in `process_action'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/notifications.rb:168:in `block in instrument'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/notifications.rb:168:in `instrument'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+vendor/bundle/ruby/2.4.0/gems/activerecord-5.2.8.1/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/abstract_controller/base.rb:134:in `process'
+vendor/bundle/ruby/2.4.0/gems/actionview-5.2.8.1/lib/action_view/rendering.rb:32:in `process'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal.rb:191:in `dispatch'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_controller/metal.rb:252:in `dispatch'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/journey/router.rb:35:in `each'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/tempfile_reaper.rb:15:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/etag.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/conditional_get.rb:40:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/session/abstract/id.rb:266:in `context'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/session/abstract/id.rb:260:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+vendor/bundle/ruby/2.4.0/gems/activerecord-5.2.8.1/lib/active_record/migration.rb:559:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.4.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.4.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.4.0/gems/activesupport-5.2.8.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.4.0/gems/actionpack-5.2.8.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.4.0/gems/rack-2.2.7/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.4.0/gems/railties-5.2.8.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:706:in `handle_request'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.4.0/gems/puma-3.12.6/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/api/decrypt" for ::1 at 2023-08-01 15:05:17 +0530
+Processing by CypeController#decrypt as */*
+  Parameters: {"encrypted_data"=>"8g/yddLZWOFrXjuAnakcLblt3EaG+xx3WayOUhaeaEy1mQwUNh2aVO2dgGos0FyCArL6dWEpJJb/2MGffmyNYtE4Ou9aoiADmziW1kV2INUtJC77N4uHeBglgSje47yGXBFUZHobphD9pwcmTqszu6tFyP+TE93djI9UyhzmRRP0yF/+2iZ9xGFIsRaBJq37z5rcZdtMtwPI1ZAusdo7Rp3fS4U371oTTtTW6KcdjhZNi+WPXezFxewC4mu7R6a6:VUG2nvbZIdr5h8+TeO/EnQ==", "cype"=>{"encrypted_data"=>"8g/yddLZWOFrXjuAnakcLblt3EaG+xx3WayOUhaeaEy1mQwUNh2aVO2dgGos0FyCArL6dWEpJJb/2MGffmyNYtE4Ou9aoiADmziW1kV2INUtJC77N4uHeBglgSje47yGXBFUZHobphD9pwcmTqszu6tFyP+TE93djI9UyhzmRRP0yF/+2iZ9xGFIsRaBJq37z5rcZdtMtwPI1ZAusdo7Rp3fS4U371oTTtTW6KcdjhZNi+WPXezFxewC4mu7R6a6:VUG2nvbZIdr5h8+TeO/EnQ=="}}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
